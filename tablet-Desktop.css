@@ -1,0 +1,47 @@
+/* -------------------- Header ------------------------*/
+header{
+    height: 46vh;
+    justify-content: flex-start;
+}
+header img{
+    margin-top: 50px;
+}
+.header--title-container{
+    height: 6vh;
+}
+.header--title-container a{
+    top: 36vh;
+}
+
+/* -------------------- Main ------------------------*/
+.main--exchange-container-tables{
+    display: flex;
+    width: 930px;
+    margin: 0 auto;
+    overflow-x: hidden;
+    overscroll-behavior-x: none;
+}
+.product-cards-container{
+    display: flex;
+    flex-wrap: wrap;
+    width: 930px;
+    margin: 0 auto;
+}
+.plans-container-slider{
+    justify-content: center;
+    overflow-x: hidden;
+    overscroll-behavior-x: none;
+}
+/* -------------------- Footer ------------------------*/
+footer{
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
+.footer-list-container ul{
+    display: flex; 
+}
+.footer-list-container a{
+    margin-right: 12px;
+}
